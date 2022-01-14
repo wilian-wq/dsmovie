@@ -14,11 +14,11 @@ import {
   Route
 } from "react-router-dom";
 import Listing from 'pages/Listing';
-import Form from "pages/Listing/Form"; 
-import Navbar from "components/Navbar";
+import Form from 'pages/Form'; 
+import Navbar from 'components/Navbar';
 
 
-function App() {
+function App(){
   return (
     <BrowserRouter>
       <Navbar />
